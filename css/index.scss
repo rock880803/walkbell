@@ -370,20 +370,38 @@ section.page {
         position: absolute;
         width: 75vw;
     }
+
     div {
         position: absolute;
         flex-direction: column;
         margin-top: -10vh;
     }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
     p {
         font-size: 24px;
-        width: 60%;
+        width: 50%;
         text-shadow: 5px 0 0px #000;
         font-family: "微軟正黑體";
         line-height: 1.5;
+        text-align: justify;
     }
 }
 
+.workpiece {
+    height: auto;
+    margin: auto;
+}
+
+.david {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    margin: auto;
+}
 
 // color
 
@@ -412,13 +430,13 @@ section.color {
     .black {
         background-color: #000;
         width: 50%;
-        height: 50vh;
+        height: 60vh;
     }
 
     .white {
         background-color: #fff;
         width: 50%;
-        height: 50vh;
+        height: 60vh;
 
         &>p {
             color: #000;
@@ -428,13 +446,13 @@ section.color {
     .blue {
         background-color: var(--bg-color1);
         width: 50%;
-        height: 30vh;
+        height: 40vh;
     }
 
     .red {
         background-color: var(--bg-color2);
         width: 50%;
-        height: 30vh;
+        height: 40vh;
 
         &>p {
             color: var(--bg-color1);
@@ -446,13 +464,14 @@ section.color {
     display: flex;
     flex-wrap: wrap;
 }
+
 .flex {
     display: flex;
 }
 
 // posm
 
-.posm > img {
+.posm>img {
     width: auto;
     height: 100%;
 }

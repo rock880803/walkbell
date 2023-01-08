@@ -349,12 +349,28 @@ section.page::after {
   flex-direction: column;
   margin-top: -10vh;
 }
+.conceptpage h1 {
+  margin-bottom: 30px;
+}
 .conceptpage p {
   font-size: 24px;
-  width: 60%;
+  width: 50%;
   text-shadow: 5px 0 0px #000;
   font-family: "微軟正黑體";
   line-height: 1.5;
+  text-align: justify;
+}
+
+.workpiece {
+  height: auto;
+  margin: auto;
+}
+
+.david {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  margin: auto;
 }
 
 section.color {
@@ -378,12 +394,12 @@ section.color {
 .color .black {
   background-color: #000;
   width: 50%;
-  height: 50vh;
+  height: 60vh;
 }
 .color .white {
   background-color: #fff;
   width: 50%;
-  height: 50vh;
+  height: 60vh;
 }
 .color .white > p {
   color: #000;
@@ -391,12 +407,12 @@ section.color {
 .color .blue {
   background-color: var(--bg-color1);
   width: 50%;
-  height: 30vh;
+  height: 40vh;
 }
 .color .red {
   background-color: var(--bg-color2);
   width: 50%;
-  height: 30vh;
+  height: 40vh;
 }
 .color .red > p {
   color: var(--bg-color1);
