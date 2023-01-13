@@ -71,3 +71,11 @@ $('html').mousemove(function (e) {
         "width": $windowWidth / 2,
     })
 })
+
+// bgAudio
+
+document.getElementById("bgAudio").volume = 0.2;
+
+// mobile Mode
+const $mobileMode = $('.mobile-only');
+$windowWidth < 1000 ? $scrollContainer.hide() : $mobileMode.hide();

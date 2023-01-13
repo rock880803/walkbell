@@ -244,6 +244,7 @@ section.page::after {
 .homepage {
   overflow: hidden;
   background-image: url(../images/frame.png);
+  background-size: cover;
 }
 .homepage .head-box {
   top: 10%;
@@ -339,6 +340,7 @@ section.page::after {
 
 .conceptpage {
   background-image: url(../images/frame2.png);
+  background-size: cover;
 }
 .conceptpage > img {
   position: absolute;
@@ -430,4 +432,51 @@ section.color {
 .posm > img {
   width: auto;
   height: 100%;
+}
+
+#david-mobile {
+  position: absolute;
+  top: 0;
+  left: -50vw;
+  margin: auto;
+  height: 100vh;
+}
+
+.mobile-only {
+  background-image: url(../images/frame.png);
+  width: 100vw;
+  height: 100vh;
+}
+.mobile-only #walkbell-decoration-mobile {
+  position: absolute;
+  top: -5vh;
+  left: 10vw;
+  width: 150vh;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transform: rotate(90deg);
+  transform-origin: left;
+  background-color: #000;
+  border: #fff 3px solid;
+  border-left: none;
+  border-right: none;
+}
+.mobile-only .mobile-hints {
+  position: absolute;
+  bottom: 5vh;
+  transform: translateX(40%);
+  -webkit-animation: blink 1.5s infinite;
+          animation: blink 1.5s infinite;
+}
+
+@-webkit-keyframes blink {
+  to {
+    color: transparent;
+  }
+}
+
+@keyframes blink {
+  to {
+    color: transparent;
+  }
 }/*# sourceMappingURL=index.css.map */
