@@ -414,6 +414,7 @@ section.page {
 
     .box1-2 {
         writing-mode: vertical-rl;
+        line-height: 2;
         right: 20vw;
     }
 
@@ -500,6 +501,7 @@ section.page {
     }
 }
 
+
 // concept
 
 .conceptpage {
@@ -529,11 +531,6 @@ section.page {
         line-height: 1.5;
         text-align: justify;
     }
-}
-
-.workpiece {
-    height: auto;
-    margin: auto;
 }
 
 .david {

@@ -66,15 +66,15 @@ $('html').mousemove(function (e) {
     var v = e.pageY - $windowHeight / 2;
     $workpiece.css({
         "transform":
-            "rotateY(" + -h / 80 + "deg)" +
-            "rotateX(" + v / 100 + "deg)",
-        "width": $windowWidth / 2,
+            "rotateY(" + -h / 40 + "deg)" +
+            "rotateX(" + v / 50 + "deg)",
+        // "width": $windowWidth / 2,
     })
 })
 
 // bgAudio
 
-document.getElementById("bgAudio").volume = 0.2;
+document.getElementById("bgAudio").volume = 0.01;
 
 // mobile Mode
 const $mobileMode = $('.mobile-only');
