@@ -9,6 +9,10 @@
   display: none;
 }
 
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   font-family: "Dela Gothic One", "DM Serif Text", "Noto Sans TC", "微軟正黑體", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   counter-reset: section;
@@ -57,6 +61,15 @@ p.cn {
   --bg-color7: rgb(136, 136, 136);
   --font-color: rgb(255, 255, 255);
   --font-color-content: rgb(255, 255, 255);
+}
+
+.nextpage {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  font-size: 80px;
+  opacity: 0;
 }
 
 .head-box,
@@ -133,6 +146,7 @@ p.cn {
   overflow: hidden auto;
   scrollbar-width: thin;
   scrollbar-color: #000;
+  transition: all 0.5s;
 }
 
 section {

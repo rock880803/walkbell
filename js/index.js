@@ -79,3 +79,14 @@ document.getElementById("bgAudio").volume = 0.2;
 // mobile Mode
 const $mobileMode = $('.mobile-only');
 $windowWidth < 1000 ? $scrollContainer.hide() : $mobileMode.hide();
+
+// nextpage
+
+const $nextpage = $('.nextpage');
+
+var page = $(window).scrollTop();
+$nextpage.click(function () {
+    page+= $windowHeight;
+    $scrollContainer.animate({"scrollTop": page}, 400);
+    console.log(page);
+})
