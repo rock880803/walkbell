@@ -354,6 +354,24 @@ section.page::after {
   flex-direction: column;
   align-items: center;
 }
+.introduction .img-box {
+  position: absolute;
+  top: 5vw;
+  left: 10vw;
+}
+.introduction .left {
+  height: 80vh;
+  left: 20vw;
+}
+.introduction .right {
+  height: 80vh;
+  left: 5vw;
+}
+.introduction .box1-2 {
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  right: 20vw;
+}
 .introduction .box1 {
   position: absolute;
   display: flex;

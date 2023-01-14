@@ -370,6 +370,7 @@ section.page {
     text-shadow: none;
     font-family: "微軟正黑體";
     color: #fff;
+
     p {
         text-shadow: none;
         font-size: 24px;
@@ -380,6 +381,27 @@ section.page {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+   .img-box {
+        position: absolute;
+        top: 5vw;
+        left: 10vw;
+    }
+
+    .left {
+        height: 80vh;
+        left: 20vw;
+    }
+
+    .right {
+        height: 80vh;
+        left: 5vw;
+    }
+
+    .box1-2 {
+        writing-mode: vertical-rl;
+        right: 20vw;
+    }
 
     .box1 {
         position: absolute;
@@ -395,7 +417,7 @@ section.page {
 
     p {
         font-family: "微軟正黑體";
-        
+
         font-weight: 800;
     }
 
@@ -418,9 +440,11 @@ section.page {
             width: 100%;
         }
     }
+
     .box2-2 {
         bottom: 30px;
         left: 50vw;
+
         p {
             text-shadow: none;
             width: 80%;
@@ -438,9 +462,11 @@ section.page {
     p {
         color: #000;
     }
+
     h1 {
         font-size: 36px;
     }
+
     p {
         font-weight: 600;
         font-size: 18px;
